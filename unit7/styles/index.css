@@ -1,0 +1,307 @@
+body {
+  background-color: #fcf8f9;
+  text-align: center;
+
+  margin: 0px;
+  padding-top: 25px;
+}
+
+h1 {
+  font-family: "Press Start 2P", "Times New Roman";
+  font-size: 30px;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  text-align: left;
+  color: #ba7388;
+
+  margin-left: 100px;
+}
+
+nav {
+  background-color: #f1e4e8;
+
+  width: 100%;
+  overflow: hidden;
+}
+
+nav a,
+nav a:visited,
+nav a:active {
+  text-decoration: none;
+  color: #000;
+}
+
+.current-page {
+  border-bottom: 5px solid #ba7388;
+}
+
+nav > a,
+.dropdown-button {
+  text-transform: lowercase;
+  font-family: "Quicksand", "Times New Roman";
+  font-size: 15px;
+  letter-spacing: 2px;
+}
+
+nav > a {
+  background-color: #f1e4e8;
+
+  padding: 15px 10px 10px 10px;
+  width: auto;
+  float: left;
+  margin: 0px 0px 0px 100px;
+}
+
+.nav-link:hover {
+  background-color: #ceb1ba;
+}
+
+.dropdown-menu {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown-button {
+  font-size: 15px;
+  font-family: "Quicksand", "Times New Roman";
+  background-color: #f1e4e8;
+  color: black;
+
+  border: none;
+  outline: none;
+  padding: 15px 10px;
+  margin: 0px;
+}
+
+nav > a:hover,
+.dropdown-menu:hover .dropdown-button {
+  -webkit-transition: background-color 0.3s ease-in;
+  background-color: rgba(186, 115, 136, 0.2);
+}
+
+.dropdown-content {
+  background-color: #fff;
+  box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.2);
+
+  display: none;
+  position: absolute;
+  min-width: 150px;
+  z-index: 1;
+  border-radius: 5px;
+}
+
+.dropdown-content a {
+  color: black;
+  font-family: "Quicksand", "Times New Roman";
+  font-size: 15px;
+  text-decoration: none;
+  text-align: left;
+
+  float: none;
+  padding: 10px;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  -webkit-transition: background-color 0.25s ease-in;
+  background-color: #efefef;
+  border-radius: 5px;
+}
+
+.dropdown-menu:hover .dropdown-content {
+  display: block;
+}
+
+main {
+  margin: auto;
+  margin-top: 100px;
+  width: 100%;
+}
+
+.main-container {
+  margin: auto;
+  border-spacing: 10px;
+}
+
+.intro-note {
+  font-family: "Quicksand", "Times New Roman";
+  font-size: 30px;
+  letter-spacing: 2px;
+  background-color: rgba(255, 255, 255, 0.5);
+  text-align: left;
+
+  box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.2);
+  border-radius: 0px 0px 5px 5px;
+  display: block;
+  width: 300px;
+  height: 550px;
+  border-top: 2px dashed #ba7388;
+  padding: 20px;
+  margin: 50px;
+}
+
+.card-container {
+  display: block;
+
+}
+
+.card-table {
+  border-spacing: 25px;
+  margin: auto;
+}
+
+.card {
+  background-color: #fff;
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+}
+
+.card-cap {
+  background-color: #fff;
+  font-family: "Quicksand", "Times New Roman";
+  letter-spacing: 2px;
+  font-size: 25px;
+  text-align: center;
+
+  padding: 10px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.card-image {
+  width: 300px;
+  height: 200px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.card-link {
+  font-family: "Quicksand", "Times New Roman";
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #fff;
+  -webkit-transition:
+    background-color 0.5s ease-out,
+    color 0.5s ease-out,
+    letter-spacing 0.5s ease-out;
+  background-color: #ba7388;
+
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.card-link:hover {
+  text-decoration: none;
+  -webkit-transition:
+    background-color 0.25s ease-in,
+    color 0.25s ease-in;
+  color: #ba7388;
+  background-color: rgba(186, 115, 136, 0.3);
+}
+
+
+footer {
+  background-color: #f1e4e8;
+  font-family: "Quicksand", "Times New Roman";
+  text-align: left;
+
+  width: 100%;
+  padding: 25px 0px;
+  margin-top: 300px;
+}
+
+.f-container {
+  width: 840px;
+  height: auto;
+  margin: auto;
+}
+
+.f-left,
+.f-middle,
+.f-right {
+  background-color: rgba(255, 255, 255, 0.5);
+
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.2);
+  float: left;
+
+  padding: 30px;
+  border-top: 2px dashed #ba7388;
+  border-radius: 0px 0px 10px 10px;
+  margin-bottom: 10px;
+}
+
+.f-left {
+  font-size: 26px;
+  text-align: left;
+
+  width: 290px;
+  height: 250px;
+  margin-right: 20px;
+}
+
+.f-middle {
+  width: 110px;
+  height: 280px;
+  padding-top: 10px;
+  margin: 0px 20px;
+}
+
+.f-right {
+  text-align: center;
+
+  width: 180px;
+  height: 270px;
+  margin-left: 20px;
+}
+
+.f-title {
+  text-align: center;
+}
+
+.f-links,
+.f-links:visited,
+.f-links:active {
+  text-decoration: none;
+  color: #000;
+  font-size: 14px;
+
+  margin: 3px;
+  display: block;
+}
+
+.f-links:hover {
+  text-decoration: underline;
+  text-decoration-color: #000;
+}
+
+.f-right-text {
+  text-align: left;
+  height: 180px;
+}
+
+#port-button {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #fff;
+  -webkit-transition:
+    background-color 0.5s ease-out,
+    color 0.5s ease-out,
+    letter-spacing 0.5s ease-out;
+  background-color: #ba7388;
+
+  border-radius: 5px;
+  padding: 10px;
+}
+
+#port-button:hover {
+  text-decoration: none;
+  -webkit-transition:
+    background-color 0.25s ease-in,
+    color 0.25s ease-in,
+    letter-spacing 0.25 ease-in;
+  color: #ba7388;
+  letter-spacing: 2px;
+  background-color: rgba(186, 115, 136, 0.3);
+}

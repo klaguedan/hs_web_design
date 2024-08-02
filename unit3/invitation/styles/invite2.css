@@ -1,0 +1,142 @@
+body {
+  background-color: #e6e6ff;
+  background-repeat: repeat-x;
+  margin: 0px;
+  padding-top: 50px;
+  text-align: center;
+}
+
+nav {
+  font-size: 15px;
+  left: 0px;
+  text-align: left;
+  font-family: "Montserrat", "Times New Roman";
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  background-color: #663300;
+  box-shadow: 0px 2px 5px #3a1d00;
+
+  margin: 0px;
+  padding: 0px;
+  float: left;
+  display: block;
+  overflow: hidden;
+  position: fixed;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+}
+
+h1 {
+  font-family: "Montserrat", "Times New Roman";
+  font-size: 30px;
+  text-align: left;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  color: white;
+
+  float: left;
+  margin: 5px 10px;
+}
+
+nav a {
+  text-decoration: none;
+  -webkit-transition: background-color 1s ease-out;
+  color: #ffcc99;
+  text-align: center;
+
+  float: left;
+  display: inline-block;
+  padding: 16px;
+  margin: 0px;
+  width: 100px;
+  height: auto;
+}
+
+.other-page:hover {
+  -webkit-transition: background-color 0.75s ease;
+  background-color: #995b1d;
+  color: white;
+}
+
+.current-page {
+  background-color: #ffb366;
+  color: #b35900;
+  font-weight: bold;
+}
+
+center {
+  margin-top: 50px;
+  margin-bottom: 540px;
+}
+
+.titletext {
+  font-family: "Times New Roman";
+  font-variant: small-caps;
+  font-size: 20px;
+  color: Black;
+}
+.bgcolor {
+  background-color: #FFDAB9;
+}
+.citetext {
+  font-family: "Times New Roman";
+  font-size: 10px;
+  color: #330000;
+}
+.tablebg {
+  background-color: #FFEFD5;
+}
+
+footer {
+  background-color: #663300;
+  font-family: "Montserrat", "Times New Roman";
+  text-align: left;
+
+  display: block;
+  width: 100%;
+  height: 370px;
+  padding-top: 30px;
+  margin-top: 75px;
+}
+
+.footer-container {
+  border-left: 3px solid rgba(255, 204, 153, 0.5);
+  border-right: 3px solid rgba(255, 204, 153, 0.5);
+  margin: 10px auto 0px auto;
+  height: 310px;
+  width: 500px;
+  padding: 0px 50px;
+}
+
+.footer-category {
+  display: inline-block;
+  width: 125px;
+  height: 350px;
+  padding: 0px;
+  text-align: left;
+  float: left;
+}
+
+.footer-category-title {
+  font-family: "Montserrat";
+  color: #ffcc99;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+
+.footer-list,
+.footer-link,
+.footer-link:active,
+.footer-link:visited {
+  list-style-type: none;
+  color: #ffcc99;
+  text-decoration: none;
+  font-size: 10px;
+}
+
+.footer-link:hover {
+  color: #ffcc99;
+  text-decoration: underline;
+  text-decoration-color: #ffcc99;
+}
